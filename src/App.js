@@ -13,7 +13,7 @@ class App extends React.Component{
 
   spin() {
     this.setState({
-      number:  (Math.random() * 1000) * 2
+      number: (Math.random() * 1000) * 2
     })
   }
 
